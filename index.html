@@ -8,12 +8,16 @@
   <link rel="stylesheet" href="./src/style/style.css">
 </head>
 <body>
+  <div class="nav-skip">
+    <a href="#nav-key">영화목록 바로가기</a>
+    <a href="#company-key">회사정보 바로가기</a>
+  </div>
   <h1 class="sr-only">Hoon 시네마</h1>
   <section class="container-movie">
     <h2 class="container-title">Hoon 시네마 영화 목록</h2>
     <header>
       <h3 class="sr-only">영화 정보 목록</h3>
-      <nav class="nav-movie">
+      <nav id="nav-key" class="nav-movie">
         <ul class="nav-movie-list">
           <li class="on"><a href="#none" class="nav-link">현재상영영화</a></li>
           <li><a href="#none" class="nav-link">처음예정영화</a></li>
@@ -253,7 +257,7 @@
     </section>
   </section>
 
-  <footer class="container-company">
+  <footer id="company-key" class="container-company">
     <section class="container-info">
       <h2 class="sr-only">시네마 정보</h2>
       <strong class="title-company">Hoon Cinema</strong>
