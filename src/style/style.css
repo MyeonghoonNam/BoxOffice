@@ -35,7 +35,7 @@
   padding: 0 27px 29px;
   border: 2px solid #BDBDBD;
   border-radius: 15px;
-  background: #E5E5E5;
+  background: #F2F2F2;
 }
 
 .container-title {
@@ -193,4 +193,92 @@
   height: 16px;
   margin: 13px 2px 0 0;
   vertical-align: top;
+}
+
+/* 푸터 스타일 */
+.container-company {
+  background: #F2F2F2;
+  margin-top: 135px;
+}
+
+.container-info {
+  position: relative;
+  margin: 0 auto;
+  width: 1189px;
+  overflow: hidden;
+}
+
+.title-company {
+  display: block;
+  font-size: 22px;
+  height: 118px;
+  line-height: 118px;
+  border-bottom: 2px solid #c4c4c4;
+  font-weight: 700;
+}
+
+.list-company-info {
+  float: left;
+  margin: 38px 0;
+}
+
+.list-company-info dt, .list-company-info dd {
+  float: left;
+}
+
+.list-company-info dt {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.list-company-info dd {
+  font-weight: 400;
+}
+
+.list-company-info dd:not(:last-child)::after {
+  display: inline-block;
+  content: '';
+  width: 1px;
+  height: 12px;
+  margin: 0 7px;
+  background: #000;
+}
+
+.list-sns {
+  position: absolute;
+  overflow: hidden;
+  top: 50px;
+  right: 0;
+}
+
+.list-sns li {
+  float: left;
+  margin-left: 22px;
+}
+
+.list-sns a[class^="link"] {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 1px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-size: 24px;
+}
+
+.link-twitter {
+  background-image: url(../images/twitter.png);
+}
+
+.link-insta {
+  background: url(../images/instagram.png);
+}
+
+.link-facebook {
+  background: url(../images/facebook.png);
+}
+
+.text-copy {
+  float: right;
+  margin-top: 38px;
 }
