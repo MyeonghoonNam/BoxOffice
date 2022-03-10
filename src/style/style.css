@@ -1,0 +1,82 @@
+@charset "utf-8";
+@import url(./reset.css);
+
+/* utility */
+/* 스크린리더에서만 보이는 영역, UI에서는 보이지 않는 영역 지정*/
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* 한줄 말줄임 */
+.sl-ellipsis {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 두줄 말줄임 */
+.multi-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* 컨테이너 스타일 */
+.container-movie {
+  width: 70%;
+  margin: 86px auto 0;
+  padding: 0 27px 29px;
+  border: 2px solid #BDBDBD;
+  border-radius: 15px;
+  background: #E5E5E5;
+}
+
+.container-title {
+  font-size: 24px;
+  text-align: center;
+  line-height: 28px;
+  padding: 38px 0;
+}
+
+/* 네비게이션 스타일 */
+.nav-movie {
+  text-align: center;
+}
+
+.nav-movie::before {
+  display: block;
+  content: '';
+  width: 70%;
+  height: 2px;
+  background: #BDBDBD;
+  margin: 0 auto;
+}
+
+.nav-movie-list {
+  display: inline-block;
+  margin: 27px auto;
+}
+
+.nav-movie-list li {
+  float: left;
+}
+
+.nav-movie-list li+li {
+  margin-left: 30px;
+}
+
+.nav-link {
+  color: #828282;
+}
+
+.on .nav-link {
+  color: #000;
+  font-weight: bold;
+}

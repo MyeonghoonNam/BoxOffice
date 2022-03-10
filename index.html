@@ -5,17 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Preview Page</title>
+  <link rel="stylesheet" href="./src/style/style.css">
 </head>
 <body>
-  <h1>Hoon 시네마</h1>
-  <section>
-    <h2>Hoon 시네마 영화 목록</h2>
+  <h1 class="sr-only">Hoon 시네마</h1>
+  <section class="container-movie">
+    <h2 class="container-title">Hoon 시네마 영화 목록</h2>
     <header>
-      <nav>
-        <ul>
-          <li><a href="#none">현재상영영화</a></li>
-          <li><a href="#none">처음예정영화</a></li>
-          <li><a href="#none">박스오피스</a></li>
+      <h3 class="sr-only">영화 정보 목록</h3>
+      <nav class="nav-movie">
+        <ul class="nav-movie-list">
+          <li class="on"><a href="#none" class="nav-link">현재상영영화</a></li>
+          <li><a href="#none" class="nav-link">처음예정영화</a></li>
+          <li><a href="#none" class="nav-link">박스오피스</a></li>
         </ul>
       </nav>
     </header>
