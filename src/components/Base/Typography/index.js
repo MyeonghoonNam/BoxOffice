@@ -5,8 +5,10 @@ const Typography = () => {
 		const $typography = document.createElement(tag);
 
 		if (attr) {
-			for (const a of Array.from(attr)) {
-				$typography.setAttribute(a, attr.a);
+			const keys = Object.keys(attr);
+
+			for (const a of keys) {
+				$typography.setAttribute(a, attr[a]);
 			}
 		}
 
