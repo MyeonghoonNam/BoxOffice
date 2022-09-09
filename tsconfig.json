@@ -2,6 +2,7 @@
 	"compilerOptions": {
 		"allowJs": true,
 		"target": "ES5",
+		"module": "ES2015",
 		"outDir": "dist",
 		"moduleResolution": "Node",
 		"lib": ["ES2015", "DOM", "DOM.Iterable"],
