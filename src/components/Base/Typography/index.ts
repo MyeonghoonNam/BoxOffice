@@ -1,7 +1,15 @@
+interface IProps {
+	tag: string;
+	attr?: {
+		[key: string]: string;
+	};
+	text: string;
+}
+
 const Typography = () => {
 	let $element;
 
-	const render = ({ tag, attr = false, text }) => {
+	const render = ({ tag, attr, text }: IProps) => {
 		const $typography = document.createElement(tag);
 
 		if (attr) {
@@ -17,7 +25,7 @@ const Typography = () => {
 		return $typography;
 	};
 
-	return (props) => {
+	return (props: IProps) => {
 		$element = render(props);
 
 		return $element;
