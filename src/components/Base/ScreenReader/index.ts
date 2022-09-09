@@ -1,7 +1,12 @@
+interface IProps {
+	tag: string;
+	text: string;
+}
+
 const ScreenReader = () => {
 	let $element;
 
-	const render = ({ tag, text }) => {
+	const render = ({ tag, text }: IProps) => {
 		const $screenReader = document.createElement(tag);
 		$screenReader.setAttribute('class', 'sr-only');
 		$screenReader.innerText = text;
@@ -9,7 +14,7 @@ const ScreenReader = () => {
 		return $screenReader;
 	};
 
-	return (props) => {
+	return (props: IProps) => {
 		$element = render(props);
 
 		return $element;
