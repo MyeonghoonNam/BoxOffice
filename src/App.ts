@@ -15,7 +15,7 @@ const COMPONENTS = {
 const App = () => {
 	let $element;
 
-	const render = (target) => {
+	const render = (target: Element) => {
 		const $app = target.cloneNode();
 
 		const $skipNavigation = COMPONENTS.SkipNavigation();
@@ -29,7 +29,7 @@ const App = () => {
 		return $app;
 	};
 
-	return (target) => {
+	return (target: Element) => {
 		$element = render(target);
 
 		return $element;
