@@ -11,7 +11,8 @@
 	},
 	"homepage": "https://github.com/MyeonghoonNam/PreviewPage#readme",
 	"scripts": {
-		"build": "tsc --watch"
+		"start": "tsc --watch",
+		"build": "tsc"
 	},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.36.2",
