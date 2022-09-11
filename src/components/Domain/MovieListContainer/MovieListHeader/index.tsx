@@ -1,4 +1,4 @@
-import { ScreenReader } from '../../../index.js';
+import { ScreenReader } from '../../..';
 
 const COMPONENTS = {
 	ScreenReader: ScreenReader(),

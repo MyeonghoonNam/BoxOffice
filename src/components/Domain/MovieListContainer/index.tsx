@@ -1,6 +1,6 @@
-import { Typography, ScreenReader } from '../../index.js';
-import MovieListHeader from './MovieListHeader/index.js';
-import MovieList from './MovieList/index.js';
+import { Typography, ScreenReader } from '../..';
+import MovieListHeader from './MovieListHeader';
+import MovieList from './MovieList';
 
 const COMPONENTS = {
 	Typography: Typography(),
