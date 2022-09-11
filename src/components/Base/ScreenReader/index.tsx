@@ -3,22 +3,10 @@ interface IProps {
 	text: string;
 }
 
-const ScreenReader = () => {
-	let $element;
+function ScreenReader({ tag, text }: IProps) {
+	const Tag = tag as keyof JSX.IntrinsicElements;
 
-	const render = ({ tag, text }: IProps) => {
-		const $screenReader = document.createElement(tag);
-		$screenReader.setAttribute('class', 'sr-only');
-		$screenReader.innerText = text;
-
-		return $screenReader;
-	};
-
-	return (props: IProps) => {
-		$element = render(props);
-
-		return $element;
-	};
-};
+	return <Tag className="sr-only">{text}</Tag>;
+}
 
 export default ScreenReader;
