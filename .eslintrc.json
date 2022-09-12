@@ -34,7 +34,8 @@
 		"react-hooks/rules-of-hooks": "error",
 		"react-hooks/exhaustive-deps": "warn",
 		"import/prefer-default-export": "off",
-		"no-restricted-syntax": "off"
+		"no-restricted-syntax": "off",
+		"react/require-default-props": "off"
 	},
 	"settings": {
 		"import/resolver": {
