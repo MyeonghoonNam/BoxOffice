@@ -6,30 +6,10 @@ interface IProps {
 	text: string;
 }
 
-const Typography = () => {
-	let $element;
+function Typography({ tag, attr, text }: IProps) {
+	const Tag = tag as keyof JSX.IntrinsicElements;
 
-	const render = ({ tag, attr, text }: IProps) => {
-		const $typography = document.createElement(tag);
-
-		if (attr) {
-			const keys = Object.keys(attr);
-
-			for (const a of keys) {
-				$typography.setAttribute(a, attr[a]);
-			}
-		}
-
-		$typography.innerText = text;
-
-		return $typography;
-	};
-
-	return (props: IProps) => {
-		$element = render(props);
-
-		return $element;
-	};
-};
+	return <Tag {...attr}>{text}</Tag>;
+}
 
 export default Typography;
