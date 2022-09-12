@@ -35,7 +35,8 @@
 		"react-hooks/exhaustive-deps": "warn",
 		"import/prefer-default-export": "off",
 		"no-restricted-syntax": "off",
-		"react/require-default-props": "off"
+		"react/require-default-props": "off",
+		"react/jsx-props-no-spreading": "off"
 	},
 	"settings": {
 		"import/resolver": {
