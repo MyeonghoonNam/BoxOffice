@@ -11,7 +11,7 @@ function MovieList() {
 						<h4 className="sr-only">영화 상세 정보</h4>
 						<a href="#none" className="movie-link">
 							<img
-								src="./src/images/포스터_위니브월드.png"
+								src="/images/포스터_위니브월드.png"
 								alt="위니브 월드 : 새로운 시대"
 							/>
 						</a>
@@ -51,7 +51,7 @@ function MovieList() {
 						<h4 className="sr-only">영화 상세 정보</h4>
 						<a href="#none" className="movie-link">
 							<img
-								src="./src/images/포스터_눈떠보니자바.png"
+								src="/images/포스터_눈떠보니자바.png"
 								alt="눈떠보니 코딩테스트 전"
 							/>
 						</a>
@@ -88,10 +88,7 @@ function MovieList() {
 					<article>
 						<h4 className="sr-only">영화 상세 정보</h4>
 						<a href="#none" className="movie-link">
-							<img
-								src="./src/images/포스터_부트캠프.jpg"
-								alt="파이썬 부트캠프"
-							/>
+							<img src="/images/포스터_부트캠프.jpg" alt="파이썬 부트캠프" />
 						</a>
 						<strong className="movie-title sl-ellipsis">파이썬 부트캠프</strong>
 						<dl className="movie-info">
@@ -124,10 +121,7 @@ function MovieList() {
 					<article>
 						<h4 className="sr-only">영화 상세 정보</h4>
 						<a href="#none" className="movie-link">
-							<img
-								src="./src/images/포스터_파이큐티.png"
-								alt="파이큐티의 사랑"
-							/>
+							<img src="/images/포스터_파이큐티.png" alt="파이큐티의 사랑" />
 						</a>
 						<strong className="movie-title sl-ellipsis">파이큐티의 사랑</strong>
 						<dl className="movie-info">
@@ -160,7 +154,7 @@ function MovieList() {
 					<article>
 						<h4 className="sr-only">영화 상세 정보</h4>
 						<a href="#none" className="movie-link">
-							<img src="./src/images/포스터_앤진액스.png" alt="NGINX의 춤" />
+							<img src="/images/포스터_앤진액스.png" alt="NGINX의 춤" />
 						</a>
 						<strong className="movie-title sl-ellipsis">NGINX의 춤</strong>
 						<dl className="movie-info">
@@ -193,7 +187,7 @@ function MovieList() {
 					<article>
 						<h4 className="sr-only">영화 상세 정보</h4>
 						<a href="#none" className="movie-link">
-							<img src="./src/images/포스터_어쩌다밋업.png" alt="어쩌다 밋업" />
+							<img src="/images/포스터_어쩌다밋업.png" alt="어쩌다 밋업" />
 						</a>
 						<strong className="movie-title sl-ellipsis">어쩌다 밋업</strong>
 						<dl className="movie-info">
@@ -226,10 +220,7 @@ function MovieList() {
 					<article>
 						<h4 className="sr-only">영화 상세 정보</h4>
 						<a href="#none" className="movie-link">
-							<img
-								src="./src/images/포스터_파이게임.jpg"
-								alt="파이게임 어드벤처"
-							/>
+							<img src="/images/포스터_파이게임.jpg" alt="파이게임 어드벤처" />
 						</a>
 						<strong className="movie-title sl-ellipsis">
 							파이게임 어드벤처
@@ -264,7 +255,7 @@ function MovieList() {
 					<article>
 						<h4 className="sr-only">영화 상세 정보</h4>
 						<a href="#none" className="movie-link">
-							<img src="./src/images/포스터_MBIT.png" alt="MBIT는 내 운명" />
+							<img src="/images/포스터_MBIT.png" alt="MBIT는 내 운명" />
 						</a>
 						<strong className="movie-title sl-ellipsis">MBIT는 내 운명</strong>
 						<dl className="movie-info">
