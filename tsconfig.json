@@ -3,7 +3,17 @@
 		"allowJs": true,
 		"target": "ES5",
 		"module": "ES2015",
+		"skipLibCheck": true,
 		"outDir": "dist",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"allowUmdGlobalAccess": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"jsx": "react-jsx",
 		"moduleResolution": "Node",
 		"lib": ["ES2015", "DOM", "DOM.Iterable"],
 		"noImplicitAny": true,
@@ -12,6 +22,6 @@
 		"alwaysStrict": true,
 		"strictFunctionTypes": true
 	},
-	"include": ["src/**/*.ts"],
-	"exclude": ["node_modules", "**/*.spec.ts"]
+	"include": ["src/**/*.tsx"],
+	"exclude": ["node_modules", "**/*.spec.tsx"]
 }
